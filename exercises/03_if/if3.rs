@@ -29,6 +29,10 @@ pub fn animal_habitat(animal: &str) -> &'static str {
     habitat
 }
 
+pub fn main(){
+    animal_habitat("gopher");
+}
+
 // No test changes needed.
 #[cfg(test)]
 mod tests {
